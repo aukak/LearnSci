@@ -38,7 +38,6 @@ body {
   letter-spacing: var(--ls);
   position: relative;
   overflow: hidden;
-  background: var(--bg);
   margin: 0;
 }
 a.effect-shine:hover {
@@ -86,7 +85,6 @@ a.effect-shine:hover {
   position: absolute;
   width: 60vw;
   height: 60vw;
-  background-color: var(--clr-1);
   border-radius: 37% 29% 27% 27% / 28% 25% 41% 37%;
   filter: blur(var(--blur));
   mix-blend-mode: overlay;
@@ -99,7 +97,6 @@ a.effect-shine:hover {
 }
 
 .aurora__item:nth-of-type(2) {
-  background-color: var(--clr-3);
   right: 0;
   top: 0;
   animation: aurora-border 6s ease-in-out infinite,
@@ -107,7 +104,6 @@ a.effect-shine:hover {
 }
 
 .aurora__item:nth-of-type(3) {
-  background-color: var(--clr-2);
   left: 0;
   bottom: 0;
   animation: aurora-border 6s ease-in-out infinite,
@@ -115,7 +111,6 @@ a.effect-shine:hover {
 }
 
 .aurora__item:nth-of-type(4) {
-  background-color: var(--clr-4);
   right: 0;
   bottom: -50%;
   animation: aurora-border 6s ease-in-out infinite,
